@@ -1,0 +1,12 @@
+.task-list {
+    display: grid;
+    /* Naya Grid Layout: 5 columns ab (Checkbox, S.No, Title, Desc, Action) */
+    grid-template-columns: 40px 50px 1fr 2fr 150px; 
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+/* ...baaki purani list.css ka code as it is rahega... */
